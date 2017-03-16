@@ -1,12 +1,12 @@
-#####PURPOSE
+#PURPOSE
 
 A Part of Speech tagger written in Ruby. I wrote this for a class project at UMD. As it does a fair amount of compute-bound work and is written in a slow dynamic language, I wouldn't recommend it for serious use.
 
-#####Requirements
+#Requirements
 
 Should work on any 1.9.X or greater version of Ruby.
 
-#####Usage
+#Usage
 
 	ruby tagger.rb [OPTIONS]
 
@@ -14,7 +14,7 @@ To see command lines options:
 
 	ruby tagger.rb --help
 
-#####About
+#About
 
 There are two taggers, a Hidden Markov Model-based one, and a perceptron-based tagger. To choose a method use the
 --method switch, e.g.:
